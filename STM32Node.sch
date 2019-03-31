@@ -411,119 +411,89 @@ B6
 Text Label 8900 2550 2    50   ~ 0
 B7
 Wire Wire Line
-	3100 5150 2700 5150
+	2700 5150 3100 5150
 Wire Wire Line
-	2700 5250 3100 5250
+	3100 5250 2700 5250
 Wire Wire Line
-	3100 5350 2700 5350
+	2700 5350 3100 5350
 Wire Wire Line
-	2700 5450 3100 5450
+	3100 5450 2700 5450
 Wire Wire Line
-	3100 5550 2700 5550
+	2700 5550 3100 5550
 Wire Wire Line
-	2700 5650 3100 5650
+	3100 5650 2700 5650
 Wire Wire Line
-	3100 5750 2700 5750
+	2700 5750 3100 5750
 Wire Wire Line
-	2700 5850 3100 5850
+	3100 5850 2700 5850
 Wire Wire Line
-	3100 5950 2700 5950
+	2700 5950 3100 5950
 Wire Wire Line
-	2700 6050 3100 6050
+	3100 6050 2700 6050
 Wire Wire Line
-	3100 6150 2700 6150
+	2700 6150 3100 6150
 Wire Wire Line
-	2700 6250 3100 6250
+	3100 6250 2700 6250
 Wire Wire Line
-	3100 6350 2700 6350
+	2700 6350 3100 6350
 Wire Wire Line
-	2700 6450 3100 6450
+	3100 6450 2700 6450
 Wire Wire Line
-	3100 6550 2700 6550
+	2700 6550 3100 6550
 Wire Wire Line
-	2700 6650 3100 6650
-Wire Wire Line
-	3100 6750 2700 6750
-Wire Wire Line
-	2700 6850 3100 6850
+	3100 6650 2700 6650
 Text Label 3100 5150 2    50   ~ 0
 GND
 Text Label 3100 5250 2    50   ~ 0
-GND
++3V3
 Text Label 3100 5350 2    50   ~ 0
-+3V3
-Text Label 3100 5450 2    50   ~ 0
 RESET
-Text Label 3100 5550 2    50   ~ 0
+Text Label 3100 5450 2    50   ~ 0
 B11
-Text Label 3100 5650 2    50   ~ 0
+Text Label 3100 5550 2    50   ~ 0
 B10
-Text Label 3100 5750 2    50   ~ 0
+Text Label 3100 5650 2    50   ~ 0
 B1
-Text Label 3100 5850 2    50   ~ 0
+Text Label 3100 5750 2    50   ~ 0
 B0
-Text Label 3100 5950 2    50   ~ 0
+Text Label 3100 5850 2    50   ~ 0
 A7
-Text Label 3100 6050 2    50   ~ 0
+Text Label 3100 5950 2    50   ~ 0
 A6
-Text Label 3100 6150 2    50   ~ 0
+Text Label 3100 6050 2    50   ~ 0
 A5
-Text Label 3100 6250 2    50   ~ 0
+Text Label 3100 6150 2    50   ~ 0
 A4
-Text Label 3100 6350 2    50   ~ 0
+Text Label 3100 6250 2    50   ~ 0
 A3
-Text Label 3100 6450 2    50   ~ 0
+Text Label 3100 6350 2    50   ~ 0
 A2
-Text Label 3100 6550 2    50   ~ 0
+Text Label 3100 6450 2    50   ~ 0
 A1
-Text Label 3100 6650 2    50   ~ 0
+Text Label 3100 6550 2    50   ~ 0
 A0
-Text Label 3100 6750 2    50   ~ 0
+Text Label 3100 6650 2    50   ~ 0
 C13
-Text Label 3100 6850 2    50   ~ 0
-+3V3
-$Comp
-L power:+3V3 #PWR0113
-U 1 1 5BF65FFA
-P 3150 6850
-F 0 "#PWR0113" H 3150 6700 50  0001 C CNN
-F 1 "+3V3" V 3165 6978 50  0000 L CNN
-F 2 "" H 3150 6850 50  0001 C CNN
-F 3 "" H 3150 6850 50  0001 C CNN
-	1    3150 6850
-	0    1    1    0   
-$EndComp
 $Comp
 L power:+3V3 #PWR0114
 U 1 1 5BF66000
-P 3100 5350
-F 0 "#PWR0114" H 3100 5200 50  0001 C CNN
-F 1 "+3V3" V 3115 5478 50  0000 L CNN
-F 2 "" H 3100 5350 50  0001 C CNN
-F 3 "" H 3100 5350 50  0001 C CNN
-	1    3100 5350
+P 3100 5250
+F 0 "#PWR0114" H 3100 5100 50  0001 C CNN
+F 1 "+3V3" V 3115 5378 50  0000 L CNN
+F 2 "" H 3100 5250 50  0001 C CNN
+F 3 "" H 3100 5250 50  0001 C CNN
+	1    3100 5250
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5BF66006
-P 3100 5150
-F 0 "#PWR0115" H 3100 4900 50  0001 C CNN
-F 1 "GND" V 3105 5022 50  0000 R CNN
-F 2 "" H 3100 5150 50  0001 C CNN
-F 3 "" H 3100 5150 50  0001 C CNN
-	1    3100 5150
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5BF6600C
-P 3100 5250
-F 0 "#PWR0116" H 3100 5000 50  0001 C CNN
-F 1 "GND" V 3105 5122 50  0000 R CNN
-F 2 "" H 3100 5250 50  0001 C CNN
-F 3 "" H 3100 5250 50  0001 C CNN
-	1    3100 5250
+P 3100 5150
+F 0 "#PWR0116" H 3100 4900 50  0001 C CNN
+F 1 "GND" V 3105 5022 50  0000 R CNN
+F 2 "" H 3100 5150 50  0001 C CNN
+F 3 "" H 3100 5150 50  0001 C CNN
+	1    3100 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -640,17 +610,6 @@ F 3 "" H 1350 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x18 J2
-U 1 1 5BFECD70
-P 2500 6050
-F 0 "J2" H 2420 4925 50  0000 C CNN
-F 1 "Conn_01x18" H 2420 5016 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical" H 2500 6050 50  0001 C CNN
-F 3 "~" H 2500 6050 50  0001 C CNN
-	1    2500 6050
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 5BFF4F29
 P 1950 7350
@@ -710,4 +669,15 @@ Wire Wire Line
 	8500 2350 8900 2350
 Text Label 8900 2350 2    50   ~ 0
 B5
+$Comp
+L Connector_Generic:Conn_01x16 J2
+U 1 1 5CA11824
+P 2500 5950
+F 0 "J2" H 2420 4925 50  0000 C CNN
+F 1 "Conn_01x16" H 2420 5016 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 2500 5950 50  0001 C CNN
+F 3 "~" H 2500 5950 50  0001 C CNN
+	1    2500 5950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
